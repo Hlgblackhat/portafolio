@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: hidden;
+}
+
+.wrapper{
+  width:100vw;
+  height: 100vh;
+  background-color:black;
+  color: #fff;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.brand{
+  margin: -7px;
+}
+.brand span{
+  color: red;
+ }
+
+.menu{
+  display: flex;
+  width:50%;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+}
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.menu .active{
+  color: red;
+}
+.menu a:hover{
+  background-color: darkred;
+  color: #fff;
+  transition: ease-in .3s;
+}
+
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+h1{
+  font-size: 3em;
+
+}
+
+span{
+  color: red;
+}
+
+.download-cv{
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border-color: red;
+    border: 20%;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(238, 170, 239, 0.8);
+}
+
+.download-cv:hover{
+  background-color: black;
+  color: red;
+}
